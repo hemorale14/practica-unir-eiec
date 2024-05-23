@@ -94,3 +94,9 @@ luna
 sol
 maestro
 escuela
+spa
+colores
+letras
+amigos
+caracoles
+avispa

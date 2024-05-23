@@ -29,9 +29,9 @@ if __name__ == "__main__":
         remove_duplicates = sys.argv[2].lower() == "yes"
         sort_lists = sys.argv[3].lower() == "ascendente"
     else:
-        print("Se debe indicar el fichero como primer argumento")
-        print("El segundo argumento indica si se quieren eliminar duplicados")
-        print("El tercer argumento indica si se quiere ordenar la lista ascendente o descendente")
+        print("ATENCION > Se debe indicar el fichero como primer argumento")
+        print("ATENCION > El segundo argumento indica si se quieren eliminar duplicados")
+        print("ATENCION > El tercer argumento indica si se quiere ordenar la lista ascendente o descendente")
         sys.exit(1)
 
     print(f"Se leerán las palabras del fichero {filename}")
